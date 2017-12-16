@@ -2,10 +2,7 @@
 
 // day 1
 
-while ($input = readline('Please enter the puzzle input: ')) {
-	$result = process($input);
-	echo "Result is: $result\n\n";
-}
+require 'main.inc.php';
 
 function process($input) {
 	$sum = 0;
